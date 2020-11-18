@@ -1,13 +1,14 @@
 import React from 'react';
-class App extends React.Component{
-  render(){
-    const name = "にんじゃわんこ";
-    const imgUrl = "https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/react/ninjawanko.png";
+
+class App extends React.Component {
+  render() {
     return (
-      <div>
-        <h1>{name}</h1>
-        <img src = {imgUrl} />
-      </div>
+    	<div>
+    	  <h1>こんにちは、にんじゃわんこさん！</h1>
+        <button>ひつじ仙人</button>
+    	  <button>にんじゃわんこ</button>
+    	  
+    	</div>
     );
   }
 }
