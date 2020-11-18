@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return (
     	<div>
-    	  <h1>こんにちは、にんじゃわんこさん！</h1>
+    	  <h1>こんにちは、{this.state.name}さん！</h1>
         <button onClick={() => {console.log("ひつじ仙人")}} >
           ひつじ仙人
         </button>
