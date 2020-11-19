@@ -10,10 +10,10 @@ class App extends React.Component {
     return (
     	<div>
     	  <h1>こんにちは、{this.state.name}さん！</h1>
-        <button onClick={() => {console.log("ひつじ仙人")}} >
+        <button onClick={() => {this.setState({name: "ひつじ仙人"})}} >
           ひつじ仙人
         </button>
-    	  <button onClick = {() => {console.log("にんじゃわんこ")}}>
+    	  <button onClick = {() => {this.setState({name: "にんじゃわんこ"})}}>
           にんじゃわんこ
         </button>
     	  
