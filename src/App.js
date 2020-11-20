@@ -7,12 +7,16 @@ class App extends React.Component {
     
     
   }
+
+  handleClick(){
+    this.setState({count: this.state.count + 1})
+  }
   
   render() {
     return (
       <div>
         <h1>
-          <button>+</button>
+          <button onClick={()=>{this.handleClick()}}>+</button>
           {this.state.count}
           
           
