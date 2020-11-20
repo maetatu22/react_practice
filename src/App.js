@@ -3,7 +3,7 @@ import React from 'react';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    
+    this.state = {count: 0}
     
     
   }
@@ -12,7 +12,8 @@ class App extends React.Component {
     return (
       <div>
         <h1>
-          
+          <button>+</button>
+          {this.state.count}
           
           
         </h1>
